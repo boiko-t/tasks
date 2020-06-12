@@ -16,7 +16,7 @@ If element has specific class, remove this class from class list. If element doe
 
 ## Task 4
 Read text from prompt and add this text to element `.text-placeholder`  
-To inset text use:  
+To insert text use:  
 ```
 element.innerText = 'Some text';
 ```
