@@ -1,0 +1,25 @@
+> Copy `index.html` and `style.css` to your project
+Include your script to `index.html`
+
+## Task 1
+Add inline style to even children inside `grid-1`.  
+Inline style property `background` with value `#aff0ad`
+
+## Task 2
+Add class `grid-item-background` to odd children inside `grid-1`. 
+
+_[Task 1 and 2 expected result](http://prntscr.com/syhfwk)_
+
+## Task 3
+Create function `toggleClass(element, className)`  
+If element has specific class, remove this class from class list. If element doesn't have this class, add it to class list.
+
+## Task 4
+Read text from prompt and add this text to element `.text-placeholder`  
+To inset text use:  
+```
+element.innerText = 'Some text';
+```
+If the text contains substring '1', add class `numeric` to the `.text-placeholder` element
+
+_[Task 4 expected result](http://prntscr.com/syhq2g)_
