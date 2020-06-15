@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30%;
+  box-sizing: border-box;
+  background: rgba(132, 121, 121, 0.63);
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.popup.visible {
+  display: block;
+}
+
+#closePopupButton {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid #706f6f;
+  border-radius: 50%;
+  background: #f8c9d1;
+}
+
+.circle.odd {
+  background: #f1f8c9;
+}
