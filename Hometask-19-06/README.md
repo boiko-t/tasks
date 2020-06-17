@@ -25,4 +25,5 @@ Validation rules:
 - fields `username` and `jobTitle` should contain string value (min. 3, max 20 characters)
 - field `age` should be a number from 0 to 115
 
-If the field has invalid value, add class `invalid` to this field
+If the field has invalid value, add class `invalid` to this field  
+[Expected result](http://prntscr.com/t1hn8e)
