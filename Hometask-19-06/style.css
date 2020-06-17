@@ -1,5 +1,5 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body, input, button {
+  font: 16px Arial, Helvetica, sans-serif;
 }
 
 #ball {
@@ -13,4 +13,48 @@ body {
   border-radius: 50%;
   background: #f1f8c9;
   transition: bottom .3s, left .3s;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+form label span {
+  width: 90px;
+  max-width: 100%;
+}
+
+input {
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid #333;
+}
+
+input:focus {
+  box-shadow: 0 2px 3px 0 #a2a2a2;
+  outline: none;
+}
+
+input.invalid {
+  border-color: tomato;
+}
+
+input[type="submit"],
+button {
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background: orange;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  box-shadow: 0 2px 3px 0 #a2a2a2;
 }
