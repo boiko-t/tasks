@@ -1,6 +1,10 @@
 > Copy `index.html` and `style.css` to your project
 Include your script to `index.html` (to the end of `<body>` element)
 
+Reading info:  
+[Promise](https://javascript.info/promise-basics)   
+[Fetch](https://javascript.info/fetch)
+
 ## Task 1
 Get users from [Json Placeholder](https://jsonplaceholder.typicode.com/users)   
 Add users to element `.users` and use classes  `user`, `.user-email` and `.user-name`  
