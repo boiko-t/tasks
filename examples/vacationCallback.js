@@ -23,19 +23,3 @@ applyForVisa('123', (visaId) => {
       bookHotel();
     }, console.error);
 }, console.error);
-
-function download(url) {
-  return new Promise(function(resolve, reject) {
-    // big code for downloading...
-    let isDownloadSuccessful = Math.random() > 0.5;
-    if (isDownloadSuccessful) {
-      resolve('Downloaded 😊');
-    } else {
-      reject('Not downloaded 🙄');
-    }
-  });
-}
-
-download('...')
-  .then(console.log)
-  .catch(console.error);
