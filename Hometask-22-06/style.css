@@ -1,0 +1,43 @@
+body,
+input,
+button {
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px dotted #5b5b5b;
+  color: #333;
+}
+
+.user-email {
+  min-width: 300px;
+  margin: 5px 0;
+}
+
+.user-name {
+  width: 100%;
+  margin: 5px 0 0;
+  font-size: 20px;
+  color: #1e6db3;
+}
+
+.user-address {
+  margin: 5px 0;
+}
+
+.slide h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: rgb(233, 218, 218);
+  border: 1px solid #797979;
+  margin: 10px;
+  color: #797979;
+  font-size: 25px;
+  font-weight: 600;
+}
