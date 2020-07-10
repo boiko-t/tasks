@@ -19,7 +19,7 @@ Create two variants: the first one using NOT !, the second one – without it
 ## Task 3
 Write to console number sequence (console.log):  
 0  
-2 
+2  
 4  
 6  
 8  
