@@ -18,11 +18,20 @@ Create two variants: the first one using NOT !, the second one – without it
 
 ## Task 3
 Write to console number sequence (console.log):  
-0, 2, 4, 6, 8, 10
+0
+2
+4
+6
+8
+10
 
 ## Task 4
 Write to console number sequence (console.log):  
-1, 3, 5, 7, 9
+1
+3
+5
+7
+9
 
 ## Task 5
 Write a user login application.   
