@@ -19,7 +19,7 @@ min(1, -5) => -5
 Write a function max(a, b) which returns the greater of two numbers a and b.
 > Example:  
 max(4, 10) => 10  
-min(-8, 0) => 0  
+max(-8, 0) => 0  
 
 ## Task 4
 Rewrite with arrow functions  
