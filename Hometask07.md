@@ -24,6 +24,10 @@ function showUserInfo(firstName, lastName) {
 ## Task 3
 Fix the code
 ```
+(function() {
+  console.info('init...');
+});
+
 const user = { name: 'Ann', age: 54 };
 const user2 = user;
 user2.age = 40;
