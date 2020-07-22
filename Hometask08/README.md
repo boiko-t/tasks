@@ -42,4 +42,36 @@ Example:
   deleteTodo deletes todo object with specific id from array
 
 - Create function `setTodoState(id, state)`  
-  setTodoState changes field completed for specific todo object
+  setTodoState changes field `completed` for specific todo object
+  
+- Test functions in console
+
+> Example 
+```
+const todos = [
+  {
+    userId: 1,
+    id: 1,
+    title: "Todo Item 1",
+    completed: false
+  }
+];
+
+addTodo(2, 2, 'Todo Item 2', true);
+// todos:
+  [
+    { userId: 1, id: 1, title: "Todo Item 1", completed: false },
+    { userId: 2, id: 2, title: "Todo Item 2", completed: true }
+  ]
+
+setTodoState(1, true);
+// todos:
+  [
+    { userId: 1, id: 1, title: "Todo Item 1", completed: true },
+    { userId: 2, id: 2, title: "Todo Item 2", completed: true }
+  ]
+  
+deleteTodo(1);
+// todos:
+  [{ userId: 2, id: 2, title: "Todo Item 2", completed: true }]
+```
