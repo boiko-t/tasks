@@ -1,4 +1,4 @@
-> Copy `index.html` and `style.css` to your project
+> Copy `index.html` and `style.css` to your project  
 Include your script to `index.html`
 
 ## Task 1
