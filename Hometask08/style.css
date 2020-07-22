@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid-1 {
+  display: flex;
+}
+
+.grid-item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  margin: 5px;
+}
+
+.grid-item-background {
+  background: #aeadf0;
+}
+
+.text-placeholder {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.text-placeholder.numeric {
+  color: violet;
+}
