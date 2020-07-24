@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30%;
+  box-sizing: border-box;
+  background: rgba(132, 121, 121, 0.63);
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.popup.visible {
+  display: block;
+}
+
+#closePopupButton {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* --------- TODO --------- */
+.todo {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #706f6f;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo .state-icon,
+.todo .delete-icon {
+  position: relative;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+.todo .state-icon {
+  border: 1px dashed #706f6f;
+}
+
+.todo .delete-icon {
+  background: url(https://image.flaticon.com/icons/png/512/61/61848.png) center /
+    contain no-repeat;
+  transition: transform .3s;
+}
+.todo .delete-icon:hover {
+  transform: scale(1.1);
+}
+
+.todo.completed .state-icon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.75em;
+  height: 1em;
+  border: 0 solid rgb(86, 189, 86);
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg) translate(0.2em, -0.2em);
+}
