@@ -18,7 +18,7 @@ element.innerText = 'Some text';
 ```
 If the text contains substring '1', add class `numeric` to the `.text-placeholder` element
 
-_[Task 4 expected result](http://prntscr.com/syhq2g)_
+_[Task 3 expected result](http://prntscr.com/syhq2g)_
 
 
 ## Task 4
