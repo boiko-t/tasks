@@ -37,4 +37,6 @@ Todo markup:
 
 - Click on `.delete-icon` element deletes todo from array and DOM
 
+> You can use [closest() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest) to find parent element with class `.todo`
+
 [Example of expected result here](http://prntscr.com/tnt88z)
