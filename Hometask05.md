@@ -20,9 +20,9 @@ Array activities
   ["Rap", "Reggae", "Jazz", "Classics", "Rock-n-Roll"]
 
 ## Task 3
-Create a function getAverageAge(array)
-input: '15, 60, 45, 30'
-output: 37.5
+Create a function getAverageAge(array)  
+input: '15, 60, 45, 30'  
+output: 37.5  
 **use split() for string**
 
 ## Task 4
