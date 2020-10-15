@@ -30,3 +30,11 @@ Write a function log(message, logger)
 Parameter logger should have default value console.log
 > Example:  
 log('Hello!', console.warn) // warning 'Hello!' is logged to console
+
+## Task 6
+Rewrite function `showMessage` to the self-calling:  
+```
+function showMessage(message) {
+  console.log(message);
+}
+```
