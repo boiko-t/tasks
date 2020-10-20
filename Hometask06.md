@@ -1,8 +1,15 @@
 ## Additional reading:
+- [Strings](https://javascript.info/string)
 - [Objects](https://javascript.info/object)
 - [Object methods, "this"](https://javascript.info/object-methods)
 
 ## Task 1
+Get value without currency https://javascript.info/task/extract-currency
+
+## Task 2
+Make name right https://javascript.info/task/ucfirst
+
+## Task 3
 Write the code, one line for each action:
 
 1. Create an empty object user.
@@ -11,7 +18,7 @@ Write the code, one line for each action:
 4. Change the value of the name to Pete.
 5. Add object method `sayHi`. This method should log to console phrase 'Hello, from XXX' (XXX - user name)
 
-## Task 2
+## Task 4
 Find average age for users
 ```
 const users = [
@@ -24,15 +31,15 @@ const users = [
 
 ```
 
-## Task 3
+## Task 5
 [Check for emptiness](https://javascript.info/task/is-empty)  
 P.S. you can go through object with `for...in` or use `Object.keys()`
 
-## Task 4
+## Task 6
 [Multiply numeric properties by 2](https://javascript.info/task/multiply-numeric)
 
-## Task 5
+## Task 7
 [Create calculator](https://javascript.info/task/calculator)
 
-## Task 6
+## Task 8
 [Create chaining](https://javascript.info/task/chain-calls)
