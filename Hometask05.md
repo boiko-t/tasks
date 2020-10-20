@@ -1,7 +1,6 @@
 ## Additional reading:
 - [Array](https://javascript.info/array)
 - [Array Methods](https://javascript.info/array-methods)
-- [Strings](https://javascript.info/string)
 
 Create script for the next tasks:
 
@@ -27,9 +26,3 @@ output: 37.5
 
 ## Task 4
 Filter items from range https://javascript.info/task/filter-range
-
-## Task 5
-Get value without currency https://javascript.info/task/extract-currency
-
-## Task 6
-Make name right https://javascript.info/task/ucfirst
