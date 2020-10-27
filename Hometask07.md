@@ -60,7 +60,7 @@ Example:
 
 > Example 
 ```
-const todos = [
+let todos = [
   {
     userId: 1,
     id: 548,
