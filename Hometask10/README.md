@@ -2,7 +2,7 @@
 Include your script to `index.html` (to the end of `<body>` element)
 
 Required reading:  
-[Form Events](https://javascript.info/events-change-input), [Form Submit](https://javascript.info/forms-submit)
+[Form Events](https://javascript.info/events-change-input), [Form Submit](https://javascript.info/forms-submit)  
 [Promise](https://javascript.info/promise-basics)   
 [Fetch](https://javascript.info/fetch)
 
