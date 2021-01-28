@@ -22,8 +22,19 @@ max(4, 10) => 10
 max(-8, 0) => 0  
 
 ## Task 4
-Rewrite with arrow functions  
-https://javascript.info/task/rewrite-arrow
+Rewrite paramenters for ask function as arrow functions  
+```
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  function() { alert("You agreed."); },
+  function() { alert("You canceled the execution."); }
+);
+```
 
 ## Task 5
 Write a function log(message, logger)  
