@@ -20,9 +20,9 @@ Array activities
 
 ## Task 3
 Create a function getAverageAge(array)  
-input: '15, 60, 45, 30'  
+input: [15, 60, 45, 3]  
 output: 37.5  
-**use split() for string**
+> you can use default data (don't use prompt for input)
 
 ## Task 4
 Filter items from range https://javascript.info/task/filter-range
