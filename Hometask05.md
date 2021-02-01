@@ -21,7 +21,7 @@ Array activities
 ## Task 3
 Create a function getAverageAge(array)  
 ```
-let array = [15, 60, 45, 3];  
+let array = [15, 60, 45, 30];  
 let result = getAverageAge(array);  
 console.log(result); // 37.5  
 ```
