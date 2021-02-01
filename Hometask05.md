@@ -20,9 +20,21 @@ Array activities
 
 ## Task 3
 Create a function getAverageAge(array)  
-input: [15, 60, 45, 3]  
-output: 37.5  
+```
+let array = [15, 60, 45, 3];  
+let result = getAverageAge(array);  
+console.log(result); // 37.5  
+```
 > you can use default data (don't use prompt for input)
 
 ## Task 4
-Filter items from range https://javascript.info/task/filter-range
+Filter items from range  
+Create a function `filterRange(array, min, max)`
+```
+let array = [5, 3, 8, 1];
+let filtered = filterRange(array, 1, 4);
+
+console.log(filtered); // 3, 1 (matching values)
+
+console.log(array); // 5, 3, 8, 1 (not modified)
+```
