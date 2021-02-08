@@ -34,6 +34,12 @@ Hi from Ann
 ```
 
 ## Task 3
+In `index.html` create HTML markup:
+- div element with class `container`
+- h1 element inside `.container` with text 'Hello'
+- p element inside `.container` with text 'This is a text paragraph'
+
+## Task 4
 - Create file `todo.js` and `todo.html`, include script to HTML file.  
 - Create array of 5 todo objects with random data.  
 Todo Object fields: `userId`, `id`, `title`, `completed`.   
