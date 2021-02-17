@@ -23,13 +23,13 @@ If the field has invalid value, add class `invalid` to this field
 [Expected result](http://prntscr.com/t1hn8e)
 
 ## Task 2
-Load todos from https://jsonplaceholder.typicode.com/todos/ to todos array    
-Add 20 todos to markup  
+Load todo from https://jsonplaceholder.typicode.com/todos/1 to todos array    
+Add todos to markup  
 Add button to `todo.html`:  
 ```
 <button type="button" id="loadTodos">Load more todos</button>
 ```
-On `#loadTodos` add 20 more todos to markup  
+On `#loadTodos` click load the next todo from server, add it to array and the markup  
 
 ## Task 3 (additional)
 Move the ball right every time, when `#moveBallX` value is changed
