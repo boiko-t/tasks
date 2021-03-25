@@ -22,7 +22,7 @@ max(4, 10) => 10
 max(-8, 0) => 0  
 
 ## Task 4
-Rewrite paramenters for ask function as arrow functions  
+Rewrite paramenters for ask function as arrow functions. See [the screenshot](https://prnt.sc/10vfh48)   
 ```
 function ask(question, yes, no) {
   if (confirm(question)) yes()
