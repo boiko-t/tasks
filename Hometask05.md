@@ -38,3 +38,12 @@ console.log(filtered); // 3, 1 (matching values)
 
 console.log(array); // 5, 3, 8, 1 (not modified)
 ```
+
+## Task 5 (additional)
+Make the following actions with this array `['1', '2', '3', '4', '5', '6']`:  
+1. Transform each item to number type (expected result `[1, 2, 3, 4, 5, 6]`)
+2. Multiply each item by 3 (expected result `[3, 6, 9, 12, 15, 18]`)
+3. Remove odd items (expected result `[6, 12, 18]`)
+4. Multiply all items (expected result `1296`)  
+> Use arrow functions for callbacks
+
