@@ -36,10 +36,10 @@ const users = [
 P.S. you can go through object with `for...in` or use `Object.keys()`
 
 ## Task 6
-[Multiply numeric properties by 2](https://javascript.info/task/multiply-numeric)
-
-## Task 7
 [Create calculator](https://javascript.info/task/calculator)
 
-## Task 8
+## Task 7 (Additional)
+[Multiply numeric properties by 2](https://javascript.info/task/multiply-numeric)
+
+## Task 8 (Additional)
 [Create chaining](https://javascript.info/task/chain-calls)
