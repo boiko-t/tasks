@@ -2,6 +2,7 @@
 - [Strings](https://javascript.info/string)
 - [Objects](https://javascript.info/object)
 - [Object methods, "this"](https://javascript.info/object-methods)
+- [Advanced about properties](https://javascript.info/property-descriptors)
 
 ## Task 1
 Get value without currency https://javascript.info/task/extract-currency
