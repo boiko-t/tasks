@@ -2,11 +2,11 @@
 Include your script to `index.html`
 
 ## Task 1
-Add inline style to even children inside `grid-1`.  
+Add inline style to even children inside `grid-1` (Using JavaScript code).  
 Inline style property `background` with value `#aff0ad`
 
 ## Task 2
-Add class `grid-item-background` to odd children inside `grid-1`. 
+Add class `grid-item-background` to odd children inside `grid-1`(Using JavaScript code). 
 
 _[Task 1 and 2 expected result](http://prntscr.com/syhfwk)_
 
