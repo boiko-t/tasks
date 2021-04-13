@@ -13,7 +13,7 @@ P.S. `event.key` equals `Escape` if this button is pressed
 
 ## Task 2
 > Copy `todo.html` to your project  
-Include your script from Hometask08 to `todo.html`
+Include your script from Hometask07 to `todo.html`
 
 - Create script which will render DOM from your todo data (`todos` array)
 
