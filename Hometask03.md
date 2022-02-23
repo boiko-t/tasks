@@ -13,7 +13,16 @@ Output: The number is even
 
 ## Task 2
 Check the range outside  
-Write an if condition to check that age is NOT between 14 and 90 inclusively.  
+Write an if condition to check that age is NOT between 14 and 90 inclusively (less than 14, greater than 90).
+> Example 1  
+Input: 11  
+Output: Not in the range
+
+
+> Example 2  
+Input: 40  
+Output: In the range
+
 
 ## Task 3
 Write to console number sequence (console.log):  
