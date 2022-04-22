@@ -4,10 +4,10 @@
 - [Advanced about properties](https://javascript.info/property-descriptors)
 
 
-## Task 1
+## Task 0
 [Answer the question](https://javascript.info/task/closure-latest-changes)
 
-## Task 2
+## Task 1
 Write the code, one line for each action:
 
 1. Create an empty object user.
@@ -16,7 +16,7 @@ Write the code, one line for each action:
 4. Change the value of the name to Pete.
 5. Add object method `sayHi`. This method should log to console phrase 'Hello, from XXX' (XXX - user name)
 
-## Task 3
+## Task 2
 Find average age for users
 ```
 const users = [
@@ -29,7 +29,7 @@ const users = [
 
 ```
 
-## Task 4
+## Task 3
 Capitalize users names in `users` array (use `map`, `slice` method for strings may also help)
 > Expected result
 ```
@@ -43,15 +43,15 @@ Capitalize users names in `users` array (use `map`, `slice` method for strings m
 
 ```
 
-## Task 5
+## Task 4
 [Check for emptiness](https://javascript.info/task/is-empty)  
 P.S. you can go through object with `for...in` or use `Object.keys()`
 
-## Task 6
+## Task 5
 [Create calculator](https://javascript.info/task/calculator)
 
-## Task 7
+## Task 6
 [Multiply numeric properties by 2](https://javascript.info/task/multiply-numeric)
 
-## Task 8 (Additional)
+## Task 7 (Additional)
 [Create chaining](https://javascript.info/task/chain-calls)
