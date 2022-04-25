@@ -1,13 +1,6 @@
 ## Task 0
-Read more information about Scope:  
-- [ENG](https://javascript.info/closure)  
-- [RU](https://learn.javascript.ru/closure)
-
 
 ## Task 1
-[Answer the question](https://javascript.info/task/closure-latest-changes) 
-
-## Task 2
 Fix the code
 ```
 (function() {
@@ -33,13 +26,13 @@ Hi from Ann
 54    
 ```
 
-## Task 3
+## Task 2
 In `index.html` create HTML markup:
 - div element with class `container`
 - h1 element inside `.container` with text 'Hello'
 - p element inside `.container` with text 'This is a text paragraph'
 
-## Task 4
+## Task 3
 - Create file `todo.js` and `todo.html`, include script to HTML file.  
 - Create array of 5 todo objects with random data.  
 Todo Object fields: `userId`, `id`, `title`, `completed`.   
