@@ -1,5 +1,3 @@
-## Task 0
-
 ## Task 1
 Fix the code
 ```
