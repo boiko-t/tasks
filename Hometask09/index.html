@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Homework</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Task 1 -->
     <button id="openPopupButton" type="button">Open Popup</button>
     <section class="popup">
-        <span id="closePopupButton" type="button">X</span>
-        Hello from Popup!
+      <span id="closePopupButton" type="button">X</span>
+      Hello from Popup!
     </section>
-</body>
+
+    <!-- Task 2 -->
+    <hr />
+    <form id="userForm">
+      <label>
+        <span>Name:</span>
+        <input type="text" value="Ann" name="username" />
+      </label>
+      <label>
+        <span>Age:</span>
+        <input type="number" name="age" value="25" />
+      </label>
+      <label>
+        <span>Job Title:</span>
+        <input type="text" name="jobTitle" value="JS Dev" />
+      </label>
+      <input type="submit" value="Send" />
+    </form>
+
+    <!-- Task 3 -->
+    <hr />
+    <div id="ball"></div>
+    <br />
+    <p>
+      Move the ball horizontally with input: <br />
+      <input
+        id="moveBallX"
+        type="number"
+        min="0"
+        max="1000"
+        step="15"
+        value="0"
+      />
+    </p>
+  </body>
 </html>
