@@ -34,7 +34,6 @@ If the field has invalid value, add class `invalid` to this field
 ## Task 3 - Ball (additional)
 
 Move the ball right every time, when `#moveBallX` value is changed
-Add 300ms delay for ball movement
 
 > Change ball's `style.bottom` and `style.left`  
 > `style.bottom` and `style.left` require values with `px` units  
